@@ -1,0 +1,195 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *::before *,*::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+    --funetprincipal:"Young Serif";
+    --fuentesegundaria:"Outfit"
+}
+body{
+    font-size: 16px;
+    background-color: var(--Stone100);
+    font-family: var(--funetprincipal);
+    font-weight: 700;
+   
+}
+p,li,td{
+    font-family: var(--fuentesegundaria);
+    font-weight: 400;
+}
+/*contenedorprincipal*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 205rem;
+    
+}
+/*section header*/
+
+.container__principal{
+    background-color: var(--White);
+    width: 140rem;
+    max-width: 64rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+    
+}
+.container__header{
+    text-align: start;
+    padding: 2rem;
+}
+
+
+.header__img{
+    max-width: 95%;
+    border-radius: 1rem;
+    
+}
+/*parte section*/
+.section1__activa{
+    background-color: var(--Rose50);
+    width: 89%;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+ 
+  
+    
+
+}
+
+.contenedor__section{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 2rem;
+  
+
+}
+ .section1__lista--padin li{
+   margin: 1rem;
+  
+    
+
+}
+
+#section1__titulo--activo{
+    color: var(--Rose800);
+    margin: 1rem 0 0 2rem;
+}
+
+.contenedor__section .section1__titulo{
+    color: var(--Brown800);
+}
+.section2  .section1__titulo{
+    color: var(--Brown800);
+   
+}
+.section1__lista1{
+    border-bottom: 1px solid var(--Stone100);
+    margin: 0;
+    padding: 2rem;
+
+}
+.contenedor__section1{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.section1__lista1 li{
+    margin: 0.5rem 0;
+    padding: 0 0 0 2rem;
+    line-height: 2.5rem;
+    
+}
+
+
+.table{
+    width: 89%;
+   
+    margin: 0 auto;
+    text-align: left;
+
+   
+}
+   
+
+     .tr__table td{
+    border-bottom: 1px solid var(--Stone100);
+    margin: 2rem;
+    padding: 1rem;
+    
+       
+    }   
+    .td__numer,
+    .activo1{
+        color: var(--Brown800);
+        font-weight: 700;
+    }
+    tr .sindispaly{
+        border: none;
+
+    }
+  
+    
+/*footer*/
+.attribution{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
